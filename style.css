@@ -122,8 +122,13 @@ p
     justify-content: center;
     align-items: center;
     margin: 10px auto;   
+    
 }
-
+.boton1 
+{
+    box-shadow: 
+    2px 10px 15px hsl(245deg 75% 52% / 48%);
+}
 .boton1:hover 
 {
     background-color: hsl(245, 64%, 61%);

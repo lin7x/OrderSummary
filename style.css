@@ -1,0 +1,163 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body 
+{
+    min-height: 100%;
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    
+    margin-bottom: -10px;
+    
+}
+.container
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+    
+}
+
+.container__card-content
+{
+    margin-top: 10px;
+}
+
+h1 
+{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+h2
+{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 0.79rem;
+}
+p
+{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 0.85rem;
+    text-align: center;
+    color: gray;
+}
+.content-p
+{
+    width: 75%;
+    margin: 30px auto;
+    
+}
+.container__all
+{
+    width: 320px;
+    height: 464px;
+    background-color: white;
+    margin-top: 80px;
+    border-radius: 20px;
+    
+}
+
+.container__image img
+{
+    width: 320px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.container__price
+{
+    width: 100%;
+    
+    
+}
+
+.container__price-content
+{
+    width: 75%;
+    margin: 0 auto;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.image-price img 
+{
+    width: 40px;
+    margin-right: -30px;
+}
+
+.container__buttons
+{
+    width: 100%;
+    border: 1px red solid;
+}
+
+.boton
+{
+    width: 240px;
+    height: 40.59px;
+    border: none;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;   
+}
+
+.boton1:hover 
+{
+    background-color: hsl(245, 64%, 61%);
+}
+.price a 
+{
+    font-size: 0.75rem;
+}
+
+.price a:hover
+{
+    color: hsl(268, 41%, 71%);
+    text-decoration: none;
+}
+.cancel-btn
+{
+    border: none;
+    background-color: transparent;
+    color: black;
+    margin-top: -10px;
+    width: auto;
+    
+
+}
+
+.cancel-btn:hover 
+{
+    color: blue;
+}
+
+@media (max-width:700px) {
+    body 
+    {
+        background-image: url('./images/pattern-background-mobile.svg');
+        background-color: hsl(225, 100%, 94%);
+    }
+}
